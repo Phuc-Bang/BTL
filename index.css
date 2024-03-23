@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  height: 50px;
+  background-color:red;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Kéo ra giữa */
+}
+
+/* .home-img {
+  height: 45px;
+  width: 45px;
+} */
+
+.menu_tim {
+  width: 500px;
+  /* margin-left: 20px; */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 30px;
+}
+
+.menu_tim-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.lien_he div {
+  width: 165px;
+  height: 25px;
+  color: red;
+  background-color: rgb(255, 255, 255);
+  margin-left: 200px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.lua_chon {
+  display: flex;
+  margin: 10px 0px;
+  color:#fff;
+  background-color: red;
+}
+
+.lua_chon a {
+  margin-left: 115px;
+}
+
+.anh_pr {
+  width: 100%;
+  height: 450px;
+}
+
+.san_pham_km {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+.san_pham_km box {
+  background-color: #fff;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.khoi_ngang {
+  margin: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+/* .khoi_ngang div {
+  margin-top: 50px;
+  width: 30%;
+  height: 500px;
+  background-color: #ffffff;
+} */
+
+/* .anh_dt_1 {
+  height: 60%;
+  width: 80%;
+  display: flex;
+  
+} */
+
+.chia_ngang_dt {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px;
+  margin-top: 50px;
+  /* margin-left: 50px; */
+  display: flex;
+  justify-content: center;
+}
+
+.dien_thoai1 {
+  height: 250px;
+  width: 360px;
+}
+
+.ten_sp {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
